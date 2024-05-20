@@ -1,0 +1,810 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script></head>
+<style>
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  </style>
+  
+  
+  <style>
+  .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<style>
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column25 {
+  
+  width: 400px;
+  
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bg-opacity{
+    position: relative;
+    background-color: #000;
+}
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+.darkened-image {
+            filter: brightness(50%);
+            background-image: url("');
+            height: 300px;
+            width: 300px;
+        }
+.dark-overlay {
+background-color:rgba(255, 127, 0, );
+}	
+</style>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark" style="background-color:maroon;">
+	  <div class="container-fluid ">
+		<a class="navbar-brand " href="#"><img src="cross.jpg" style="height:75px; width:75px; border-radius:50%;margin-left:25px;"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+		  <ul class="navbar-nav ">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link active" href="about.html">About</a>
+			</li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="ministries.html">Ministries</a>
+			  </li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="services.html">Services</a>
+			  </li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="crusade.html">Crusade</a>
+			  </li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="Branches.html">Branches</a>
+			  </li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="Charity.html">Charity</a>
+			  </li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="Charity.html">Testmonies</a>
+			  </li>	
+            <li class="nav-item">
+			  <a class="nav-link active" href="Contact.html">Contact Us</a>
+           
+		  </ul>		  
+		</div>
+	  </div>
+	</nav>
+	
+	
+	
+	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="world.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider3.jpg" class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+      <img src="slider4.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <center>
+  <br><br><br>
+  <h2> Prophet Bajinder Singh Testimony</h2>
+  <br><br><br><br>
+  </div>
+ <div class="container-fluid">
+
+<div class="row">
+
+	<div class="col-lg-6 col-md-6 col-12">
+	<br>
+		<img src="church.jpg"  height = "700" width="600">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-12">
+		About Bajinder Singh
+<p class="p-3" style="font-family:courier,arial,helvetica; text-align: justify;" >My name is Bajinder Singh. I was born on 10/9/1982. My father was a farmer and also used to do a government job, from the eighth grade, some evil forces harassed me, due to which my nature became irritable. I went into the wrong company and for 4-5 years I beat many people, my nature it had happened Because of a big fight, I was in jail for 1.5 years, then I started searching for that god, I could see the demonic powers, she used to kill me even in jail, because of this I also tried to commit suicide.</br></br>
+
+<b>My parents</b> and relatives had also separated from me in jail, so I would think of dying due to depression, and at night I would be very scared, I would go out awake all night, and when I was afraid, I would take the names of all the Gods, But still evil forces haunt me. Then someone gave me the Bible.
+</br>
+</br>								
+It was written in it → Don't look away here and there, I am with you Whatever I used to see at night, she died because of the promise and did not appear again. Then I fell ill and my blood was reduced to 7 gm. A pastor prayed for me and my blood was completed within 2 hours, then I kept on fasting and praying that the Lord would appear to me and I would not die. And say that you are acquitted and from now on you will serve me, and i was acquitted.
+
+	</center>			
+		
+		
+	</div>
+	</div>
+	
+</div>
+</div>
+<center>
+<br><br><br>
+<h2></h2>
+
+	<section class="my-5">
+<div class ="py-5 ">
+<h2 class="text-center"><font color="darkred" font-family: Arial, sans-serif; ></font></h2>  
+</div> 
+	<div class ="container-fluid">
+		<div class ="row">
+		
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="scan.png" style="width:300px; height:300px;">
+			<h4 class="text-center">QR Code</h4>
+			<br>
+			
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="holy.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Chandigarh Church Address</h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="sunday.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Jalandher Tajpur Church Address</h4>
+			</div>
+		
+		
+		
+		
+		
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="rrrr.jpg" style="width:400px;height:200px;">
+			<h4 class="text-center"></h4>
+			<br>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="ttt.jpg" style="width:400px;height:200px;">
+			<h4 class="text-center">150+Branches</h4>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="bth.jpg" style="width:400px;height:200px;">
+			<h4 class="text-center">BTH</h4>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="crusade.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Firozepur </h4>
+			<br>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="sanam.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Crusade Booking Number  </h4>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="sunita.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> Christmas Decoration</h4>
+			
+			</div>
+			
+			
+			</div>
+			
+			</div>
+			<div class ="container-fluid">
+		<div class ="row">
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="26.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Christmas Celebration Jalandher </h4>
+			<br>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="gate.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Shobha Yatra Invitation </h4>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="christmas.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Christmas Celebration Chandigarh </h4>
+			
+			
+			
+			
+			
+			</div>
+			<div class ="container-fluid">
+		<div class ="row">
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="ruhi.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Christmas Decoration Jalandher </h4>
+			<br>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="ashok.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Christmas Decoration </h4>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="pari.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Christmas Decoration Chandigarh </h4>
+			
+			</div>
+			
+		
+	</center>
+		
+		
+		
+		
+		
+		<center>
+		<br><br><br>
+		<h2> Our Ministry</h2>
+		<br><br><br>
+		<div class="container-fluid">
+		<div class="row">
+  <div class="col-lg-6 col-md-6 col-12">
+<img src="country.jpg"  style="width:600px;height:600px;">
+    
+  </div>
+  <div class="col-lg-6 col-md-6 col-12">
+    <img src="our.png"><br>
+	ABOUT MINISTRY
+About Our Ministry
+<p class="p-3" style="font-family:courier,arial,helvetica; text-align: justify;" >Its origins were humble. In fact, the first meeting of the Prophet Bajinder Singh Ministry was held in 2016 there were only 100 people in the Chandigarh church. Under the guidance of the Holy Spirit, I started another Church in Jalandhar in the same year with a gathering of 50 people over there's at the beginning Jalandhar Church.</br></br>
+
+<b>Prophet Bajinder</b> Singh’s honesty, integrity, and leadership gained him the respect and admiration of people worldwide.
+</br>
+</br>
+A caring atmosphere, quality leadership, and community outreach attracted people from all ages, races, and walks of life. Meeting Hosted by the grace of Holy Spirit every Sunday in Jalandhar and in Chandigarh both Places.
+
+In This way, In 2017 as we have thousands of people, and its increased year by year in our Church In 2019 and Prophet Bajinder Singh ministry continued its growth and currently draws more than lakhs Monthly attendees.
+    </p>
+	
+	</center>
+</div>
+</div>
+</div>
+
+  </div>
+  <center>
+  <br><br><br><br>
+  <h2> Our Services</h2>
+		<br><br><br>
+		<div class="container-fluid">
+		<div class="row">
+  <div class="col-lg-6 col-md-6 col-12">
+<img src="water and oil.png" style="width:500px;height:7s00px;">
+    
+  </div>
+  <div class="col-lg-6 col-md-6 col-12">
+<p style="text-align:center left; color:brown;">We Belive In God<br>
+<h1 style="font-size 100px;color:black;text-align: center ;">Annointing oil and water</h1>
+<p style="text-align:center; color:black; ">Please note :- Annointing oil and water is only available in the church of glory and wisdom.new chandigarh and jalandhar .it is not for sale</p>
+  
+	</div>
+	
+	  </div> 
+	<div class="container-fluid">
+	<div class="row" style="margin-top:100px;">
+
+	
+  <div class="col-lg-3 col-md-3 col-12" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:80px;font-size:25px;"><b>Crusade</b></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:80px;font-size:25px;"><b>Mentorship</b></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:80px;font-size:25px;"><b>Prayer Request</b></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:80px;font-size:25px;"><b>Bible Study Courses</b></button>
+    
+  </div>
+  </div>
+
+
+
+</div>
+<br><br><br>
+	<div class ="container-fluid">
+		<div class ="row">
+		<div class="col-lg-4 col-md-4 col-12">
+			<div class="rounded-3 p-lg-5 p-3 h-100 no-repeat bg-center bg-cover" data-bg="img/55.jpg" style="background-image: url(img/55.jpg);">
+          
+		  <div class="text-center">
+            <i class="bi bi-geo-alt fs-1 text-white mb-3 d-block"></i>
+            <div class="feature-content">
+              <div class="fs-4 fw-semibold text-white mb-3">Jalandhar Address</div>
+              <p class="mb-0 text-white">Prophet Bajinder Singh Ministry Vill Tajpur Opp. Gupta Palace Nakodar Road Jalandhar.</p>
+            <div class ="dark-overlay"></div>
+			</div>
+          </div>
+        </div>
+   
+  
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<div class="rounded-3 p-lg-5 p-3 h-100 no-repeat bg-center bg-cover" data-bg="img/111.jpg" style="background-image: url(img/111.jpg);height:500px;">
+          <div class="text-center">
+            <i class="bi bi-telephone-outbound fs-1 text-white mb-3 d-block"></i>
+            <div class="feature-content">
+              <div class="fs-4 fw-semibold text-white mb-3"> Phone Number </div>
+              <a href="tel:0172-5100777" class="text-white text-decoration-none">0172-5100777</a>
+            </div>
+          </div>
+        </div>
+			</div>
+			
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<div class="rounded-3 p-lg-5 p-3 h-100 no-repeat bg-center bg-cover" data-bg="img/55.jpg" style="background-image: url(img/55.jpg);">
+          <div class="text-center">
+            <i class="bi bi-envelope-at fs-1 text-white mb-3 d-block"></i>
+            <div class="feature-content">
+              <div class="fs-4 fw-semibold text-white mb-3"> Email Address </div>
+              <a href="mailto:pbsmmeetings@gmail.com" class="text-white text-decoration-none">pbsmmeetings@gmail.com</a>
+            </div>
+          </div>
+        </div>
+		
+	
+			</div>
+			
+		</div>
+	<center>
+	<br><br>
+	<h2> Our Live Events</h2>
+	<br>
+	</center>
+			<div class ="container-fluid">
+		<div class ="row">
+		
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="firozepur.png" class="img-fluid pb-4">
+			<h4 class="text-center">Firozepur 6 Lakh People Were Coming</h4>
+			<br>
+			
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="amristar.png" class="img-fluid pb-4">
+			<h4 class="text-center">Amristar 5 Lakh People Were Coming </h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="odisha.png" class="img-fluid pb-4">
+			<h4 class="text-center">Odisha 5 Lakh People Were Coming </h4>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="gurdaspur.png" class="img-fluid pb-4">
+			<h4 class="text-center">Gurdaspur 5 Lakh People Were Coming</h4>
+			<br>
+			
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="jharkhand.png" class="img-fluid pb-4">
+			<h4 class="text-center">Jharkhand 10 Lakh People Were Coming </h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="hydrabad.png" class="img-fluid pb-4">
+			<h4 class="text-center">Hydrabad 5 Lakh People Were Coming</h4>
+			</div>
+			<center>
+			<br><br>
+			<h2>Our India Branches</h2>
+			<br>
+		</center>
+				<div class ="container-fluid">
+			<div class="row" style="margin-top:100px;">
+	
+  <div class="col-lg-3 col-md-3 col-12  py-4"style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>Firozepur</b></h1><p style="font-size:15px;">Royal palace Malwa road Nizamuddin basti</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4"  style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>DELHI</b></h1><p style="font-size:15px;">Apsara Banquet hall in pachim vihar</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>JAMMU</b></h1><p style="font-size:15px;">Guru Nabha Dass Hall Near Meredian Palace Dogra Hall Jammu</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>PANIPAT</b></h1><p style="font-size:15px;">R.S Residency Dharmapal Complex Near Bhapara Chownki Samalakha Panipat</p></button>
+    
+  </div>
+ 
+  
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white; " >
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>KOLKATA</b></h1><p style="font-size:15px;">Macheda Regal Guest House</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>Pune</b></h1><p style="font-size:15px;">Ajeenkya D Y Patil college university lohgaon branch airportroad pune</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>HiSAR</b></h1><p style="font-size:15px;">Jashan"E Hisar the banquet hall near goldys, teja market TATA motors company ke bilkul sath, sirsa road, Hisar</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>Tripura</b></h1><p style="font-size:15px;">Ambasa town, hall Ambasa Dhalali, Tripura</p></button>
+  
+  
+  </div>
+  
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>Faridabad</b></h1><p style="font-size:15px;">Grace 3ardenOpposite Metro Pillar44 no-529 Mathura Road Faridabad Plot no-17 Sector -27B Pin-121003Nr By NHPC Metro station</p></button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>Shimla</b></h1><p style="font-size:15px;">Khalini Banquet hall Shimla</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>Rajasthan</b></h1><p style="font-size:15px;">Murli plaza chowki ke pass Railway station mathura Road Bharatpur Rajasthan</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>PATIALA</b></h1><p style="font-size:15px;">Simran Resort, Rirhind Road, Opp Omaxe City, Patiala</p></button>
+  
+  
+  </div>
+  
+   <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h3><b>CHHATTISGARH</b></h3><p style="font-size:15px;">Dadar Road, commercial complex housing board, charoda (bhilai)</p></button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>KARNATAKA</b></h1><p style="font-size:15px;">Ujwal Laxmi Hall, n.h.17,kodibag karwar karnataka 581303</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>SANGRUR</b></h1><p style="font-size:15px;">NH -64, Jeji Resort, Patiala Road, Near Verka Milk Plant, Sangrur, Punjab 148001</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>GUJRAT</b></h1><p style="font-size:15px;">Ahmedabad Gujarat, Tagore Hall, Opposite nid paldi</p></button>
+  
+  
+  </div>
+  
+  
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>MUMBI</b></h1><p style="font-size:15px;">Janssen delite Hall and Floor , Holy Spirit Hospital Mahakali Caves Road, Andheri East Mumbai Mumbai 400093</p></button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>JHRAKHAND</b></h1><p style="font-size:15px;">Mother Teresa Nagar Ring Road, Beside saprom talav saprom, ranchi - 825203 (Jhrakhand)</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h3><b>MUZAFFRNGAR (U.P)</b></h3><p style="font-size:15px;">Vishvakarma Chowk. Near New Bhopa Bus Stand, Muzaffrnaga - U.P</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>ODISHA</b></h1><p style="font-size:15px;">Deepti Courtard Ring Road, Near Konark Cinema Hall, Rourkela, 769001, Odisha</p></button>
+  
+  
+  </div>
+  <center>
+  <br><br>
+  <h2> Our Foreigner Branches</h2> 
+  <br>
+  </center>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>AUSTRALIA</b></h1><p style="font-size:15px;">Windsor road, mc graths hill nsw 2756, sydney.</p></button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>USA</b></h1><p style="font-size:15px;">7433 GREENBACK LANE SUITE J CITRUS HEIGHTS CA 95610.</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>FIJI</b></h1><p style="font-size:15px;">AMERICAN INTERNATIONAL CHRISTIAN SCHOOL HALL, NADI ROAD FIJI.</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>U.K</b></h1><p style="font-size:15px;">HOUNSLOW WEST BANQUETING HALL B CAVENDISH PARDE HOUN-SLOW LONDON -TW 7DJ.</p></button>
+  
+  
+  </div>
+  
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>DUBAI</b></h1><p style="font-size:15px;">CRYSTAL PLAZA HOTEL 10 AI ESTIQIAI ST -AI NUD ( SHARJAH (UAE))</p></button>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4"style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>CANADA</b></h1><p style="font-size:15px;">Century gardens recreation centre, 340 vodden ste, brampton, on lev 2n2 (room2)</p></button>
+    
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+   <button type="button" class="btn btn-primary btn-lg" style="background-color:maroon; color:white;width:300px;height:300px;font-size:25px;"><h1><b>MAURITIUS</b></h1><p style="font-size:15px;">Cinema popular royal l' agremant Saint Pierre.</p></button>
+   
+  </div>
+  <div class="col-lg-3 col-md-3 col-12  py-4" style="background-color:white;">
+    <button type="button" class="btn btn-primary btn-lg" style="background-color:rgb(33, 37, 41); color:white;width:300px;height:300px;font-size:25px;"><h1><b>MALAYSIA</b></h1><p style="font-size:15px;">YMCA The young (men's christian association of kuala lumpur ) 95 jalan padang belia brickfields, 50470 kuala lumpur.</p></button>
+  
+  </div>
+  <br>
+  <h2>PBSM Chairty</h2>
+  <br><br><br>
+  <div class ="container-fluid">
+		<div class ="row">
+		
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="robin.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Prophet ji gifted a car to their church worshiper </h4>
+			<br>
+			
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="anika.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Prophet ji gifted a car to their church Pastors and  </h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="pgi.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Charity PGI </h4>
+			</div>
+		
+		</div>
+		
+		
+		<div class ="row">
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="light.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Chandigarh Charity</h4>
+			<br>
+			
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="khushi.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Amristar Chairty</h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="aa.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Charity Sector 16 </h4>
+		
+		
+		
+		</div>
+		
+		
+		
+		
+		<div class="col-lg-4 col-md-4 col-12">
+			<img src="11.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Moga Branch Charity</h4>
+			<br>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="cc.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Charity Sector 17  </h4>
+		
+		
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="hand.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">PBSM Chandigarh Charity</h4>
+		
+		
+		
+		
+		</div>
+		
+		
+		 <h2>PBSM Testimony</h2>
+		<div class ="container-fluid">
+		<div class ="row">
+		
+		<div class="col-lg-4 col-md-4 col-12">
+			<img src="visa.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">Special layhand prayer for Prophet Bajinder singh ji this sisiter got the blessing of visa and got a good relationship also.</h4>
+			<br>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="job.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">By listening to the prophecy of Prophet Bajinder singh ji This sister Got the Blessing of Permanet job.
+
+			</h4>
+		
+		
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="miracle.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">This sister's son was trying for a government job for long time,After getting done special layhand prayer from Prophet Bajinder singh this brother got a blessing of RS 2,00,000,000.</h4>
+			
+			
+			
+			
+			</div>
+		
+		
+		 
+		<div class ="container-fluid">
+		<div class ="row">
+		
+		<div class="col-lg-4 col-md-4 col-12">
+			<img src="baby.jpg" class="img-fluid pb-4">
+			<h4 class="text-center">This sister didn't havea child since 13 years, After getting than special layhand prayer ferom Prophet Bajinder singh ji and by applying anointing oil and water This sister got the Blessing of babyboy.</h4>
+			<br>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="west.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> By listening to the prophecy of Prophet Bajinder singh ji, This sister's daughter topped the board exam And got a blessing of Rs60,000.
+
+			</h4>
+		
+		
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="cars.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> By listening to the prophecy of Prophet Bajinder singh ji, This sisters got the blessing of car and mark sheet.</h4>
+		</div>
+		
+		
+		
+		<div class ="container-fluid">
+		<div class ="row">
+		
+		<div class="col-lg-4 col-md-4 col-12">
+			<img src="pr.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> By listening to the prophecy of Prophet Bajinder singh ji,By applying anointing oil and water this sister got the blessing of PR.</h4>
+			<br>
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="nnnn.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> By listening to the prophecy of Prophet Bajinder singh ji, This sister got the blessing of baby and house.
+
+			</h4>
+		
+		
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<img src="normal.jpg" class="img-fluid pb-4">
+			<h4 class="text-center"> This sister had a lump in her uterus for a long time By listening to the prophecy Prophet Bajinder Singh Ji,and by applying anointing oil and water This sister got deliverance from lump in her uterus, And this sister came report normal. </h4>
+		</div>
+		
+		
+		 <h2>Contact Us</h2>
+		<div class ="container-fluid">
+		<div class ="row">
+		<div class="col-lg-4 col-md-4 col-12">
+			<div class="rounded-3 p-lg-5 p-3 h-100 no-repeat bg-center bg-cover" data-bg="img/55.jpg" style="background-image: url(img/55.jpg);">
+          
+		  <div class="text-center">
+            <i class="bi bi-geo-alt fs-1 text-white mb-3 d-block"></i>
+            <div class="feature-content">
+              <div class="fs-4 fw-semibold text-white mb-3">Jalandhar Address</div>
+              <p class="mb-0 text-white">Prophet Bajinder Singh Ministry Vill Tajpur Opp. Gupta Palace Nakodar Road Jalandhar.</p>
+            <div class ="dark-overlay"></div>
+			</div>
+          </div>
+        </div>
+		
+			
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<div class="rounded-3 p-lg-5 p-3 h-100 no-repeat bg-center bg-cover" data-bg="img/111.jpg" style="background-image: url(img/111.jpg);height:500px;">
+          <div class="text-center">
+            <i class="bi bi-telephone-outbound fs-1 text-white mb-3 d-block"></i>
+            <div class="feature-content">
+              <div class="fs-4 fw-semibold text-white mb-3"> Phone Number </div>
+              <a href="tel:0172-5100777" class="text-white text-decoration-none">0172-5100777</a>
+            </div>
+          </div>
+        </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+			<div class="rounded-3 p-lg-5 p-3 h-100 no-repeat bg-center bg-cover" data-bg="img/55.jpg" style="background-image: url(img/55.jpg);">
+          <div class="text-center">
+            <i class="bi bi-envelope-at fs-1 text-white mb-3 d-block"></i>
+            <div class="feature-content">
+              <div class="fs-4 fw-semibold text-white mb-3"> Email Address </div>
+              <a href="mailto:pbsmmeetings@gmail.com" class="text-white text-decoration-none">pbsmmeetings@gmail.com</a>
+            </div>
+          </div>
+        </div>
+		
+		
+		
+		
+  
+  
+  
+  
+</div>
+</body>
+</html>
+
